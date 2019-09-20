@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Series on Nivetha AJ</title>
+    <link>https://nivehangeul.github.io/series/</link>
+    <description>Recent content in Series on Nivetha AJ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zn-Hans</language>
+    <lastBuildDate>Fri, 20 Sep 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://nivehangeul.github.io/series/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Learn Korean</title>
+      <link>https://nivehangeul.github.io/series/learn-korean/</link>
+      <pubDate>Fri, 20 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://nivehangeul.github.io/series/learn-korean/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Skecting</title>
+      <link>https://nivehangeul.github.io/series/skecting/</link>
+      <pubDate>Fri, 20 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://nivehangeul.github.io/series/skecting/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
