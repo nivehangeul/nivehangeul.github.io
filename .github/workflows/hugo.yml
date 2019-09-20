@@ -1,0 +1,21 @@
+name: Hugo site CI
+
+on:
+  push:
+    branches:
+      - test
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Build the site in the Hugo/builder container
+      run: |
+        cd hugo-blog
+        ls -a
+        # docker run \
+        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
+        jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
